@@ -1,0 +1,20 @@
+# Ignore certificate files
+ssl/
+*.crt
+*.key
+
+# Ignore environment files
+.env
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore Docker artifacts
+docker-compose.override.yml
+*.bak
+
+# Ignore IDE files
+.vscode/
+.idea/
+.DS_Store
